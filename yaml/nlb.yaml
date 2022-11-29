@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: ana-cluster-ip-svc
+spec:
+  selector:
+    app: was
+  type: ClusterIP
+  ports:
+    - name: ana-cluster-ip
+      protocol: TCP
+      port: 8080
+      targetPort: 8080
