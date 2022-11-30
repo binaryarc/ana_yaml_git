@@ -6,6 +6,7 @@ spec:
   selector:
     app: was
   type: ClusterIP
+  clusterIP: 172.20.20.20
   ports:
     - name: ana-cluster-ip
       protocol: TCP
