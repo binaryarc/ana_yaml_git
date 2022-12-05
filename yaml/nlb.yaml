@@ -6,6 +6,7 @@ metadata:
     service.beta.kubernetes.io/aws-load-balancer-type: "nlb"
 spec:
   type: LoadBalancer
+  ClusterIP: 172.10.10.10
   selector:
     app: was
   ports:
