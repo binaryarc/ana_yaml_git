@@ -13,7 +13,7 @@ spec:
         app: was
     spec:
       containers:
-      - image: 164134553042.dkr.ecr.ap-northeast-2.amazonaws.com/anaconda:test-was
+      - image: 164134553042.dkr.ecr.ap-northeast-2.amazonaws.com/anaconda:was.V1
         imagePullPolicy: Always
         name: was
         ports:
