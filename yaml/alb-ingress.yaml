@@ -14,6 +14,6 @@ spec:
             path: /
             backend:
               service:
-                name: web
+                name: anaconda-alb-nodeport #nodeport 랑 같은이름 
                 port:
                   number: 80
