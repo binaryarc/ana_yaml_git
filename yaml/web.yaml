@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: web-server
+  name: anaconda-web-deployment
 spec:
   replicas: 2
   selector:
@@ -13,8 +13,8 @@ spec:
         app: web
     spec:
       containers:
-      - image: 164134553042.dkr.ecr.ap-northeast-2.amazonaws.com/anaconda:web.V2
-        name:  web
+      - image: 164134553042.dkr.ecr.ap-northeast-2.amazonaws.com/anaconda:web.V3
+        name:  anaconda-web-container
         ports:
         - containerPort: 80
         resources:
