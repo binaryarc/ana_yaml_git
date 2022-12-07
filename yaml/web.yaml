@@ -13,7 +13,7 @@ spec:
         app: web
     spec:
       containers:
-      - image: 164134553042.dkr.ecr.ap-northeast-2.amazonaws.com/anaconda:web.
+      - image: 164134553042.dkr.ecr.ap-northeast-2.amazonaws.com/anaconda:web.V3
         name:  anaconda-web-container
         ports:
         - containerPort: 80
