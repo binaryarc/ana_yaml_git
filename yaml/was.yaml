@@ -13,7 +13,7 @@ spec:
         app: was
     spec:
       containers:
-      - image: 164134553042.dkr.ecr.ap-northeast-2.amazonaws.com/anaconda:was.V1
+      - image: 164134553042.dkr.ecr.ap-northeast-2.amazonaws.com/anaconda:was.
         imagePullPolicy: Always
         name: anaconda-was-container
         ports:
